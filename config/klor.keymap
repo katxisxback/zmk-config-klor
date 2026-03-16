@@ -38,10 +38,6 @@
 };
 
 / {
-    chosen {
-      zmk,matrix_transform = &five_column_transform;
-    };
-
     behaviors {
         as: auto_shift {
             compatible = "zmk,behavior-hold-tap";
